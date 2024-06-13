@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEGO Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container"></div>
+    <header>
+        <h1>LEGO Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#products">Productos</a></li>
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <li><a href="#cart">Carrito</a></li>
+                <li><a href="#account">Mi Cuenta</a></li>
+            </ul>
+            <img src="images11111.jpeg" alt="LEGO Welcome">
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h2>Bienvenidos a la LEGO Store</h2>
+            <p>Encuentra todos tus sets favoritos aquí</p>
+            <img src="PRESEEE.webp" alt="LEGO Welcome">
+        </section>
+
+        <section id="products" class="products">
+            <h2>Nuestros Productos</h2>
+
+            <input type="text" id="search-bar" placeholder="Buscar productos...">
+            <button id="search-button">Buscar</button>
+            <button id="show-all-button">Mostrar Todos</button>
+
+
+
+            <h3 id="lego marvel">LEGO MARVEL</h3>
+            <img src="MAAAAVV.jpg" alt="LEGO MARVEL" >
+            <div class="product-card"data-category="lego marvel" data-price="89.99">
+                <img src="M1.jpeg" alt="LEGO MARVEL EDIFICIO TONY STARK">
+                <h3>LEGO MARVEL EDIFICIO TONY STARK </h3>
+                <p>Edificio tony stark con personajes incluidos</p>
+                <p>Precio: $89.99</p>
+                <button class="add-to-cart">Añadir al Carrito</button>
+            </div>
+            <div class="product-card" data-category="lego marvel" data-price="39.99">
+                <img src="M2jpeg.jpeg" alt="LEGO MARVEL ETERNALS">
+                <h3>LEGO MARVEL ETERNALS </h3>
+                <p>PACK MARVEL ETERNALS</p>
+                <p>Precio: $39.99</p>
+                <button class="add-to-cart">Añadir al Carrito</button>
+            </div>
+            <div class="product-card" data-category="lego marvel" data-price="49.99">
+                <img src="M3.jpeg" alt="LEGO MARVEL EDICION NAVIDAD">
+                <h3>LEGO MARVEL EDICION NAVIDAD </h3>
+                <p>PACK MARVEL NAVIDEÑO</p>
+                <p>Precio: $49.99</p>
+                <button class="add-to-cart">Añadir al Carrito</button>
+                
+            </div>
+            <div class="product-card" data-category="lego marvel" data-price="59.99">
+                <img src="M4.jpeg" alt="LEGO MARVEL THOR ">
+                <h3>LEGO MARVEL THOR </h3>
+                <p>PACK MARVEL PERSONAJES DE THOR</p>
+                <p>Precio: $59.99</p>
+                <button class="add-to-cart">Añadir al Carrito</button>
+            </div>
+            <div class="product-card" data-category="lego marvel" data-price="29.99">
+                <img src="M5.jpeg" alt="LEGO MARVEL HOMBRE ARAÑA ">
+                <h3>LEGO MARVEL HOMBRE ARAÑA </h3>
+                <p>PACK MARVEL MASCARA</p>
+                <p>Precio: $29.99</p>
+                <button class="add-to-cart">Añadir al Carrito</button>
+            </div>
+
+
+
+            <h3 id="lego technic">LEGO Technic</h3>
+            <img src="TEC.jpg" alt="LEGO Technic"  >
+            <div class="product-card" data-category="lego technic" data-price="80.99">
+                <img src="T1.jpeg" alt="LEGO Technic LANVORGHINI">
+                <h3>LEGO Technic LANVORGHINI</h3>
+                <p>NUEVO LANVORGHINI FAST</p>
+                <p>Precio: $80.99</p>
+                <button class="add-to-cart">Añadir al Carrito</button>
+            </div>
+            <div class="product-card"  data-category="lego technic" data-price="90.99">
+                <img src="T2.jpeg" alt="LEGO TECHNIC BUGATY">
+                <h3>LEGO TECHNIC BUGATY</h3>
+                <p>LEGO BUGATY PACK</p>
+                <p>Precio: $90.99</p>
+                <button class="add-to-cart">Añadir al Carrito</button>
+            </div>
+            <div class="product-card"  data-category="lego technic"  data-price="99.99">
+                <img src="T3.jpeg" alt="LEGO Technic FORMULA 1">
+                <h3>LEGO Technic FORMULA 1 </h3>
+                <p>FORMULA 1 MERCEDES BENZ</p>
+                <p>Precio: $99.99</p>
+                <button class="add-to-cart">Añadir al Carrito</button>
+            </div>
+            <div class="product-card"  data-category="lego technic" data-price="59.99">
+                <img src="T4.jpeg" alt="LEGO Technic HELICOPTHER">
+                <h3>LEGO Technic HELICOPTHER</h3>
+                <p>HELICOPTHER LEGO SPIKE</p>
+                <p>Precio: $59.99</p>
+                <button class="add-to-cart">Añadir al Carrito</button>
+            </div>
+            <div class="product-card"  data-category="lego technic" data-price="110.99">
+                <img src="T5.jpeg" alt="LEGO Technic FERRARI">
+                <h3>LEGO Technic FERRARI</h3>
+                <p>FERRARI MONZA LEGO</p>
+                <p>Precio: $110.99</p>
+                <button class="add-to-cart">Añadir al Carrito</button>
+            </div>
+            <div class="product-card"  data-category="lego technic" data-price="89.99">
+                <img src="T6.jpeg" alt="LEGO TechNIC MOTO YAMAHA">
+                <h3>LEGO TechNIC MOTO YAMAHA</h3>
+                <p>YAMAHA R6 LEGO</p>
+                <p>Precio: $89.99</p>
+                <button class="add-to-cart">Añadir al Carrito</button>
+            </div>
+            <div class="product-card"  data-category="lego technic" data-price="79.99">
+                <img src="T7.jpeg" alt="LEGO TechNIC MONSTER">
+                <h3>LEGO TechNIC MONSTER</h3>
+                <p>CAMION MONSTER LEGO</p>
+                <p>Precio: $79.99</p>
+                <button class="add-to-cart">Añadir al Carrito</button>
+            </div>
+
+
+
+
+
+
+            <img src="LEGO.jpg" alt="LEGO Star Wars">
+            <h3 id="lego star wars">LEGO Star Wars</h3>
+            <div class="product-card" data-category="lego star wars" data-price="69.99">
+                <img src="L1.jpg" alt="LEGO Star Wars ALCON MILENARIO">
+                <h3>LEGO Star Wars ALCON MILENARIO</h3>
+                <p>ALCON MILENARIO LEGO STAR WARS</p>
+                <p>Precio: $69.99</p>
+                <button class="add-to-cart">Añadir al Carrito</button>
+            </div>
+            <div class="product-card" data-category="lego star wars" data-price="79.99">
+                <img src="L2.jpeg" alt="LEGO Star Wars STAR DEAD">
+                <h3>LEGO Star Wars STAR DEAD </h3>
+                <p>STAR DEAD PACK LEGO</p>
+                <p>Precio: $79.99</p>
+                <button class="add-to-cart">Añadir al Carrito</button>
+            </div>
+            <div class="product-card" data-category="lego star wars" data-price="79.99">
+                <img src="L3.jpg" alt="LEGO Star Wars MANDALORIAN">
+                <h3>LEGO Star Wars MANDALORIAN </h3>
+                <p>MANDALORIAN PACK LEGO</p>
+                <p>Precio: $89.99</p>
+                <button class="add-to-cart">Añadir al Carrito</button>
+            </div>
+            <div class="product-card" data-category="lego star wars" data-price="99.99">
+                <img src="L4.jpeg" alt="LEGO Star Wars GROGU">
+                <h3>LEGO Star Wars GROGU </h3>
+                <p>GROGU PACK LEGO</p>
+                <p>Precio: $99.99</p>
+                <button class="add-to-cart">Añadir al Carrito</button>
+            </div>
+            <div class="product-card" data-category="lego star wars" data-price="109.99">
+                <img src="L5.jpeg" alt="LEGO Star Wars ARTD2">
+                <h3>LEGO Star Wars ARTD2 </h3>
+                <p>ARTD2 PACK LEGO</p>
+                <p>Precio: $109.99</p>
+                <button class="add-to-cart">Añadir al Carrito</button>
+            </div>
+            <div class="product-card" data-category="lego star wars" data-price="90.99">
+                <img src="L6.jpeg" alt="LEGO Star Wars CASCO MANDO">
+                <h3>LEGO Star Wars CASCO MANDO </h3>
+                <p>CASCO MANDALORIAN</p>
+                <p>Precio: $90.99</p>
+                <button class="add-to-cart">Añadir al Carrito</button>
+            </div>
+            <div class="product-card" data-category="lego star wars" data-price="79.99">
+                <img src="L7.jpg" alt="LEGO Star Wars NAVE IMPERIAL">
+                <h3>LEGO Star Wars NAVE IMPERIAL </h3>
+                <p>STAR DEAD PACK LEGO</p>
+                <p>Precio: $79.99</p>
+                <button class="add-to-cart">Añadir al Carrito</button>
+            </div>
+            <div class="product-card" data-category="lego star wars" data-price="79.99">
+                <img src="L8.jpg" alt="LEGO Star Wars STAR DARTH VEADER">
+                <h3>LEGO Star Wars STAR DARTH VEADER </h3>
+                <p>DARTH VEADER PACK LEGO</p>
+                <p>Precio: $99.99</p>
+                <button class="add-to-cart">Añadir al Carrito</button>
+            </div>
+            <div class="product-card" data-category="lego star wars" data-price="79.99">
+                <img src="L9.jpg" alt="LEGO Star Wars CANTINA">
+                <h3>LEGO Star Wars CANTINA </h3>
+                <p>CANTINA PACK LEGO</p>
+                <p>Precio: $111.99</p>
+                <button class="add-to-cart">Añadir al Carrito</button>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        </section>
+
+        <section id="about" class="about">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos una tienda dedicada a vender los mejores sets de LEGO. Desde 2020, hemos estado ofreciendo una amplia variedad de sets para todos los gustos y edades. Nos apasiona el mundo de LEGO y nos comprometemos a proporcionar productos de alta calidad y un servicio excepcional a nuestros clientes.</p>
+            <img src="C2.jpeg" alt="Nuestro Equipo">
+            <h3>Nuestra Historia</h3>
+            <p>Nuestra tienda fue fundada por un grupo de entusiastas de LEGO que querían compartir su pasión con el mundo. Empezamos como una pequeña tienda en línea y hemos crecido hasta convertirnos en una de las principales fuentes de sets de LEGO en la región. Nuestro objetivo es inspirar creatividad y diversión a través de nuestros productos.</p>
+            <img src="H3.jpg" alt="Historia de LEGO Store">
+            <h3>Nuestro Equipo</h3>
+            <p>Contamos con un equipo dedicado de expertos en LEGO que están siempre dispuestos a ayudar y asesorar a nuestros clientes. Nuestro equipo está compuesto por personas apasionadas que conocen a fondo el universo de LEGO y están comprometidas con brindar una experiencia de compra inolvidable.</p>
+            <img src="N2.png" alt="Staff de LEGO Store">
+            <img src="lego-11111.png" alt="Staff de LEGO Store">
+        </section>
+        <!-- Sección de MI CUENTA -->
+        <section id="account">
+            <h2>Mi Cuenta</h2>
+            <div id="login-form-container">
+                <form id="login-form">
+                    <h3>Iniciar Sesión</h3>
+                    <label for="login-email">Email:</label>
+                    <input type="email" id="login-email" name="login-email" required>
+                    <label for="login-password">Contraseña:</label>
+                    <input type="password" id="login-password" name="login-password" required>
+                    <button type="submit" class="submit-button">Iniciar Sesión</button>
+                </form>
+            </div>
+            <div id="register-form-container" style="display: none;">
+                <form id="register-form">
+                    <h3>Registrarse</h3>
+                    <label for="register-email">Email:</label>
+                    <input type="email" id="register-email" name="register-email" required>
+                    <label for="register-password">Contraseña:</label>
+                    <input type="password" id="register-password" name="register-password" required>
+                    <button type="submit" class="submit-button">Registrarse</button>
+                </form>
+            </div>
+            <button id="toggle-register" class="toggle-button">¿No tienes cuenta? Regístrate aquí</button>
+         
+        </section>
+
+        <!-- <img src="INI.jpg" alt="Contacto LEGO"> -->
+
+        <!-- Sección de contacto -->
+        <section id="contact">
+            <h2>Contacto</h2>
+            <form id="contact-form">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit" class="submit-button">Enviar</button>
+            </form>
+            <p id="success-message" style="display: none; color: green;">Su mensaje ha sido enviado correctamente.</p>
+            <img src="CNN1.jpeg" alt="Contacto LEGO">
+        </section>
+
+        <section id="cart" class="cart">
+            <img src="CARRITO.jpg" alt="Contacto LEGO">
+            <h2>Carrito de Compras</h2>
+            <ul id="cart-items"></ul>
+            <p>Total: $<span id="cart-total">0.00</span></p>
+            <button id="checkout">Pagar</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 LEGO Store. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+

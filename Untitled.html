@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEGO Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>LEGO Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#products">Productos</a></li>
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <li><a href="#cart">Carrito</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h2>Bienvenidos a la LEGO Store</h2>
+            <p>Encuentra todos tus sets favoritos aquí</p>
+            <img src="images/lego_home.jpg" alt="LEGO Welcome">
+        </section>
+
+        <section id="products" class="products">
+            <h2>Nuestros Productos</h2>
+
+            <h3 id="classic">LEGO Classic</h3>
+            <div class="product-card">
+                <img src="images/lego_classic1.jpg" alt="LEGO Classic Product 1">
+                <h3>LEGO Classic Set 1</h3>
+                <p>Descripción del LEGO Classic Set 1.</p>
+                <p>Precio: $29.99</p>
+                <button data-product="LEGO Classic Set 1" data-price="29.99" data-image="images/lego_classic1.jpg">Añadir al Carrito</button>
+            </div>
+            <div class="product-card">
+                <img src="images/lego_classic2.jpg" alt="LEGO Classic Product 2">
+                <h3>LEGO Classic Set 2</h3>
+                <p>Descripción del LEGO Classic Set 2.</p>
+                <p>Precio: $39.99</p>
+                <button data-product="LEGO Classic Set 2" data-price="39.99" data-image="images/lego_classic2.jpg">Añadir al Carrito</button>
+            </div>
+
+            <h3 id="technic">LEGO Technic</h3>
+            <div class="product-card">
+                <img src="images/lego_technic1.jpg" alt="LEGO Technic Product 1">
+                <h3>LEGO Technic Set 1</h3>
+                <p>Descripción del LEGO Technic Set 1.</p>
+                <p>Precio: $49.99</p>
+                <button data-product="LEGO Technic Set 1" data-price="49.99" data-image="images/lego_technic1.jpg">Añadir al Carrito</button>
+            </div>
+            <div class="product-card">
+                <img src="images/lego_technic2.jpg" alt="LEGO Technic Product 2">
+                <h3>LEGO Technic Set 2</h3>
+                <p>Descripción del LEGO Technic Set 2.</p>
+                <p>Precio: $59.99</p>
+                <button data-product="LEGO Technic Set 2" data-price="59.99" data-image="images/lego_technic2.jpg">Añadir al Carrito</button>
+            </div>
+
+            <h3 id="starwars">LEGO Star Wars</h3>
+            <div class="product-card">
+                <img src="images/lego_starwars1.jpg" alt="LEGO Star Wars Product 1">
+                <h3>LEGO Star Wars Set 1</h3>
+                <p>Descripción del LEGO Star Wars Set 1.</p>
+                <p>Precio: $69.99</p>
+                <button data-product="LEGO Star Wars Set 1" data-price="69.99" data-image="images/lego_starwars1.jpg">Añadir al Carrito</button>
+            </div>
+            <div class="product-card">
+                <img src="images/lego_starwars2.jpg" alt="LEGO Star Wars Product 2">
+                <h3>LEGO Star Wars Set 2</h3>
+                <p>Descripción del LEGO Star Wars Set 2.</p>
+                <p>Precio: $79.99</p>
+                <button data-product="LEGO Star Wars Set 2" data-price="79.99" data-image="images/lego_starwars2.jpg">Añadir al Carrito</button>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos una tienda dedicada a vender los mejores sets de LEGO. Desde 2020, hemos estado ofreciendo una amplia variedad de sets para todos los gustos y edades. Nos apasiona el mundo de LEGO y nos comprometemos a proporcionar productos de alta calidad y un servicio excepcional a nuestros clientes.</p>
+            <img src="images/lego_team.jpg" alt="Nuestro Equipo">
+            <h3>Nuestra Historia</h3>
+            <p>Nuestra tienda fue fundada por un grupo de entusiastas de LEGO que querían compartir su pasión con el mundo. Empezamos como una pequeña tienda en línea y hemos crecido hasta convertirnos en una de las principales fuentes de sets de LEGO en la región. Nuestro objetivo es inspirar creatividad y diversión a través de nuestros productos.</p>
+            <img src="images/lego_history.jpg" alt="Historia de LEGO Store">
+            <h3>Nuestro Equipo</h3>
+            <p>Contamos con un equipo dedicado de expertos en LEGO que están siempre dispuestos a ayudar y asesorar a nuestros clientes. Nuestro equipo está compuesto por personas apasionadas que conocen a fondo el universo de LEGO y están comprometidas con brindar una experiencia de compra inolvidable.</p>
+            <img src="images/lego_staff.jpg" alt="Staff de LEGO Store">
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contacto</h2>
+            <form>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <img src="images/lego_contact.jpg" alt="Contacto LEGO">
+        </section>
+
+        <section id="cart" class="cart">
+            <h2>Carrito de Compras</h2>
+            <ul id="cart-items"></ul>
+            <p>Total: $<span id="cart-total">0.00</span></p>
+            <button id="checkout">Pagar</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 LEGO Store. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
